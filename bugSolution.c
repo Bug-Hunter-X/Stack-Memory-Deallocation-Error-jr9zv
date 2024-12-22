@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; // free(ptr); // Removed to avoid error return 0; }
